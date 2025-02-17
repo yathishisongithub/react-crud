@@ -6,6 +6,7 @@ import {Routes , Route ,BrowserRouter} from "react-router-dom"
 import Home from './components/Home.jsx'
 import Create from './components/Create.jsx'
 import Edit from './components/Edit.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
        <BrowserRouter>

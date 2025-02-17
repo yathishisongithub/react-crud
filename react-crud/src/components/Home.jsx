@@ -25,7 +25,7 @@ const Home = () => {
 
   return (
     <div>
-        <button> <Link to="/create">Create</Link> </button>
+        
          <table border="5px solid">
             <thead>
                 <tr>
@@ -54,6 +54,7 @@ const Home = () => {
                 }
             </tbody>
          </table>
+         <button> <Link to="/create">Create</Link> </button>
     </div>
   )
 }
