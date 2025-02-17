@@ -38,6 +38,8 @@ const Edit = () => {
   return (
     <div>
         <form action="">
+
+          
                     name : <input type="text" name="" id="" onChange={(e) => {setName(e.target.value)}} />
                     <br />
                     id   : <input type="number" name="" id="" onChange={(e) => {setId(e.target.value)}} />
